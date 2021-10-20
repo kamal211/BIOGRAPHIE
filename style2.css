@@ -1,9 +1,26 @@
-.container{
 
-
+body{
+    background-color: rgb(212, 207, 187);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1,h2,p{
+    text-align: center;
+}
+.image{
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    padding: 30px;
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 .ul{
-margin-left: 180px;
-    justify-content: center;
-    display: flex;
-  }
+    width: 30%;
+    margin: auto;
+}
+
