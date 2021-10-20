@@ -23,4 +23,4 @@ h1,h2,p{
     width: 30%;
     margin: auto;
 }
-
+@media all and (min-width: 850px) and (max-width: 1024px) 
